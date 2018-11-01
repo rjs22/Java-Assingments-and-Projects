@@ -1,0 +1,88 @@
+body {
+    width: 1000px;
+    margin: auto;
+    background-image: url("recordbackground.jpg");
+    background-repeat: repeat;
+    font-family: "Times New Roman", Times, serif;
+    font-size:100%;
+    line-height: 1.4;
+}
+
+header {
+    margin: 10px;
+    border-style:dashed solid;
+    border-width: 5px;
+    border-color: #9D3A0F;
+}
+header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+header, main {
+    background-color: #FCCC7B;
+    color: #9D3A0F;
+}
+
+nav, footer {
+    background-color: #FCE67B;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding:0px;
+}
+nav ul li {
+    display:inline;
+    font-size: 1.4em;
+    padding-left:40px;
+    padding-right:40px;
+}
+nav ul li {
+    transition: text-shadow .30s ease-in-out;
+}
+nav ul li:hover {
+    text-shadow: -1px -1px #742300;
+}
+nav ul li a {
+    text-decoration: none;
+    color:#9D3A0F;
+}
+main {
+    box-sizing: border-box;
+    padding:15px;
+}
+main ul li{
+    list-style-image: url(record2.png);
+    margin: 10px;
+}
+main ul li a{
+	font-weight: bold;
+	text-decoration: none;
+    color:#742300;
+}
+footer {
+    overflow:auto;
+    padding:15px;
+    box-sizing: border-box;
+    color:#9D3A0F;
+}
+footer div {
+    width:300px;
+    box-sizing: border-box;
+    float:left;
+    text-align: center;
+}
+#container {
+    margin: 10px;
+    border-style:dashed solid;
+    border-width: 5px;
+    border-color: #9D3A0F;
+}
+.worn {
+    float: right;
+    width: 300px;
+    margin-top: -70px;
+}

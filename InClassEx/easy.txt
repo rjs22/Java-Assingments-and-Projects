@@ -1,0 +1,6 @@
+Here is a text document.
+It contains a few email addresses.
+For example, here is one: tellnoone@yahoo.com 
+And here is another one didyoutellnoone@gmail.com and 
+I can't imagine that there is more yesthereis@pct.edu 
+End of test = 3 addresses
